@@ -1,0 +1,149 @@
+{
+  "title": "Small Forces (Book One of The Drift Trilogy)",
+  "status": "partial",
+  "chapters_written": 1,
+  "chapters_planned": 18,
+  "stop_reason": "ToolExecutionError: Tool implementation c1000000-0000-4000-8000-000000000012 exited with status 1: Iteration 2: child workflow e1000000-0000-4000-8000-000000000040 invocation 6f5d4b2c-c2a3-4a30-a344-bdd0090a17a9 failed: Production workflow execution failed.",
+  "novel_workflow_id": "e1000000-0000-4000-8000-000000000070",
+  "novel_workflow_revision": 1,
+  "novel_run_id": "7da46f05-86db-4ac3-8d3a-b55dbb0e2781",
+  "started_at": "2026-10-27T17:53:09.030139Z",
+  "completed_at": "2026-10-27T18:05:39.703364Z",
+  "request": {
+    "max_chapters": 18,
+    "max_revisions": 3,
+    "chapter_timeout_seconds": 2400
+  },
+  "models": [
+    "anthropic/claude-opus-5.5"
+  ],
+  "model_calls": 9,
+  "prompt_tokens": 127725,
+  "completion_tokens": 69218,
+  "recorded_cost_usd": 1.89526,
+  "cost_note": "Sum of recorded step costs. Failed attempts record no usage, so the provider's bill can be higher.",
+  "steps": {
+    "revise-chapter: Apply editorial requests": {
+      "calls": 2,
+      "prompt_tokens": 37935,
+      "completion_tokens": 22717,
+      "cost_usd": 0.60608,
+      "models": [
+        "anthropic/claude-opus-5.5"
+      ]
+    },
+    "revise-chapter: Verify editorial requests": {
+      "calls": 2,
+      "prompt_tokens": 22191,
+      "completion_tokens": 984,
+      "cost_usd": 0.108444,
+      "models": [
+        "anthropic/claude-opus-5.5"
+      ]
+    },
+    "write-chapter: Draft chapter": {
+      "calls": 1,
+      "prompt_tokens": 14408,
+      "completion_tokens": 12378,
+      "cost_usd": 0.305192,
+      "models": [
+        "anthropic/claude-opus-5.5"
+      ]
+    },
+    "write-chapter: Review chapter": {
+      "calls": 1,
+      "prompt_tokens": 24392,
+      "completion_tokens": 2786,
+      "cost_usd": 0.153288,
+      "models": [
+        "anthropic/claude-opus-5.5"
+      ]
+    },
+    "write-chapter: Update notes": {
+      "calls": 1,
+      "prompt_tokens": 18762,
+      "completion_tokens": 2301,
+      "cost_usd": 0.121068,
+      "models": [
+        "anthropic/claude-opus-5.5"
+      ]
+    },
+    "write-novel: Plan chapters": {
+      "calls": 1,
+      "prompt_tokens": 9073,
+      "completion_tokens": 8635,
+      "cost_usd": 0.208992,
+      "models": [
+        "anthropic/claude-opus-5.5"
+      ]
+    },
+    "write-novel: Plan story": {
+      "calls": 1,
+      "prompt_tokens": 964,
+      "completion_tokens": 19417,
+      "cost_usd": 0.392196,
+      "models": [
+        "anthropic/claude-opus-5.5"
+      ]
+    }
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Before You Begin",
+      "invocation_id": "db2725e3-b7d8-45f5-91cf-89144de87f4c",
+      "run_id": "d2055651-1784-438e-ab57-f28b0068f268"
+    }
+  ],
+  "child_invocations": [
+    {
+      "workflow": "write-chapter",
+      "invocation_id": "db2725e3-b7d8-45f5-91cf-89144de87f4c",
+      "run_id": "d2055651-1784-438e-ab57-f28b0068f268",
+      "created_at": "2026-10-27T17:58:13.118906+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "revise-chapter",
+      "invocation_id": "cb83d29c-66d7-40f7-93ed-e5fbe46b3688",
+      "run_id": "90a48f7d-a902-4b3f-8369-de6e0428972a",
+      "created_at": "2026-10-27T18:01:24.216797+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "revise-chapter",
+      "invocation_id": "058ae450-e440-4fc1-bc0c-c30d06a6a8a4",
+      "run_id": "a0c4a682-3b3e-4c6e-97a4-e066c996d0b0",
+      "created_at": "2026-10-27T18:03:07.207252+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "write-chapter",
+      "invocation_id": "6f5d4b2c-c2a3-4a30-a344-bdd0090a17a9",
+      "run_id": "fb5ad835-ec3a-47c3-9b26-d9c914592916",
+      "created_at": "2026-10-27T18:04:50.263270+00:00",
+      "outcome": "workflow_execution_failed"
+    }
+  ],
+  "failed_attempts": [
+    {
+      "workflow": "write-novel",
+      "run_id": "7da46f05-86db-4ac3-8d3a-b55dbb0e2781",
+      "step_id": "e1000000-0000-4000-8000-000000000075",
+      "error": "ToolExecutionError: Tool implementation c1000000-0000-4000-8000-000000000012 exited with status 1: Iteration 2: child workflow e1000000-0000-4000-8000-000000000040 invocation 6f5d4b2c-c2a3-4a30-a344-bdd0090a17a9 failed: Production workflow execution failed."
+    },
+    {
+      "workflow": "write-chapter",
+      "run_id": "fb5ad835-ec3a-47c3-9b26-d9c914592916",
+      "step_id": "e1000000-0000-4000-8000-000000000042",
+      "error": "ModelExecutionError: OpenRouter request for model 'anthropic/claude-opus-5.5' failed."
+    },
+    {
+      "workflow": "write-chapter",
+      "run_id": "fb5ad835-ec3a-47c3-9b26-d9c914592916",
+      "step_id": "e1000000-0000-4000-8000-000000000042",
+      "error": "ModelExecutionError: OpenRouter request for model 'anthropic/claude-opus-5.5' failed."
+    }
+  ],
+  "database": "novel.db"
+}

@@ -1,0 +1,249 @@
+{
+  "title": "The Water's Lying",
+  "status": "partial",
+  "chapters_written": 6,
+  "chapters_planned": 18,
+  "stop_reason": "ToolExecutionError: Tool implementation c1000000-0000-4000-8000-000000000012 exited with status 1: Iteration 7: child workflow e1000000-0000-4000-8000-000000000040 invocation 82ccb1ea-7aba-47b0-b5a5-58c87fa1e7ce failed: Production workflow execution failed.",
+  "novel_workflow_id": "e1000000-0000-4000-8000-000000000070",
+  "novel_workflow_revision": 1,
+  "novel_run_id": "3b476066-e42f-4f21-8d6e-0ff220dca2db",
+  "started_at": "2026-10-28T00:03:56.072000Z",
+  "completed_at": "2026-10-28T00:49:12.323524Z",
+  "request": {
+    "max_chapters": 18,
+    "max_revisions": 3,
+    "chapter_timeout_seconds": 3600
+  },
+  "models": [
+    "anthropic/claude-opus-5.5"
+  ],
+  "model_calls": 34,
+  "prompt_tokens": 549492,
+  "completion_tokens": 252671,
+  "recorded_cost_usd": 7.251388,
+  "cost_note": "Sum of recorded step costs. Failed attempts record no usage, so the provider's bill can be higher.",
+  "steps": {
+    "revise-chapter: Apply editorial requests": {
+      "calls": 7,
+      "prompt_tokens": 105332,
+      "completion_tokens": 92515,
+      "cost_usd": 2.271628,
+      "models": [
+        "anthropic/claude-opus-5.5"
+      ]
+    },
+    "revise-chapter: Verify editorial requests": {
+      "calls": 7,
+      "prompt_tokens": 71888,
+      "completion_tokens": 5321,
+      "cost_usd": 0.393972,
+      "models": [
+        "anthropic/claude-opus-5.5"
+      ]
+    },
+    "write-chapter: Draft chapter": {
+      "calls": 6,
+      "prompt_tokens": 108308,
+      "completion_tokens": 64682,
+      "cost_usd": 1.726872,
+      "models": [
+        "anthropic/claude-opus-5.5"
+      ]
+    },
+    "write-chapter: Review chapter": {
+      "calls": 6,
+      "prompt_tokens": 121810,
+      "completion_tokens": 15215,
+      "cost_usd": 0.79154,
+      "models": [
+        "anthropic/claude-opus-5.5"
+      ]
+    },
+    "write-chapter: Update notes": {
+      "calls": 6,
+      "prompt_tokens": 132560,
+      "completion_tokens": 41865,
+      "cost_usd": 1.36754,
+      "models": [
+        "anthropic/claude-opus-5.5"
+      ]
+    },
+    "write-novel: Plan chapters": {
+      "calls": 1,
+      "prompt_tokens": 8630,
+      "completion_tokens": 8237,
+      "cost_usd": 0.19926,
+      "models": [
+        "anthropic/claude-opus-5.5"
+      ]
+    },
+    "write-novel: Plan story": {
+      "calls": 1,
+      "prompt_tokens": 964,
+      "completion_tokens": 24836,
+      "cost_usd": 0.500576,
+      "models": [
+        "anthropic/claude-opus-5.5"
+      ]
+    }
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Vacated",
+      "invocation_id": "afb81d66-0570-443f-9fa4-6b9a2e1daf05",
+      "run_id": "a96e976a-173f-4cb5-a1fe-19cd4f674308"
+    },
+    {
+      "number": 2,
+      "title": "The Blank Line",
+      "invocation_id": "ed3ebd58-d9ae-489d-9cb9-d9e263aa3735",
+      "run_id": "e1919097-22de-44c4-a3fd-69593d9e1476"
+    },
+    {
+      "number": 3,
+      "title": "Livestock Delay",
+      "invocation_id": "6b34c6af-8f32-4850-8a4a-42173c6c21e9",
+      "run_id": "d5869830-591b-4cb7-bcfb-049aebd95376"
+    },
+    {
+      "number": 4,
+      "title": "Housekeeping",
+      "invocation_id": "7b90638d-ca04-47a8-a4d6-fd6a258f2e13",
+      "run_id": "1bb29762-3f3b-4ded-8a13-2f7f8d993d9c"
+    },
+    {
+      "number": 5,
+      "title": "Casting Notes",
+      "invocation_id": "d44381ac-1ffc-44c4-9d16-07637a062790",
+      "run_id": "8d4d0044-2093-462c-a501-cb0645114bea"
+    },
+    {
+      "number": 6,
+      "title": "Heater Test",
+      "invocation_id": "3217973e-24be-4861-b819-6c811e2e8afc",
+      "run_id": "379fbde7-91b5-4314-9899-38c2a45d4655"
+    }
+  ],
+  "child_invocations": [
+    {
+      "workflow": "write-chapter",
+      "invocation_id": "afb81d66-0570-443f-9fa4-6b9a2e1daf05",
+      "run_id": "a96e976a-173f-4cb5-a1fe-19cd4f674308",
+      "created_at": "2026-10-28T00:10:01.140333+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "revise-chapter",
+      "invocation_id": "6ac5922f-4c24-4e25-8911-47c682428403",
+      "run_id": "63083004-d07c-4553-8368-3cff1815824b",
+      "created_at": "2026-10-28T00:12:26.230176+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "write-chapter",
+      "invocation_id": "ed3ebd58-d9ae-489d-9cb9-d9e263aa3735",
+      "run_id": "e1919097-22de-44c4-a3fd-69593d9e1476",
+      "created_at": "2026-10-28T00:14:44.818164+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "revise-chapter",
+      "invocation_id": "00eb7647-86aa-4269-a3f8-58f00b806cfa",
+      "run_id": "d946c6e2-72b9-4475-8136-151aa7f68264",
+      "created_at": "2026-10-28T00:18:06.393566+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "write-chapter",
+      "invocation_id": "6b34c6af-8f32-4850-8a4a-42173c6c21e9",
+      "run_id": "d5869830-591b-4cb7-bcfb-049aebd95376",
+      "created_at": "2026-10-28T00:20:58.850581+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "revise-chapter",
+      "invocation_id": "ea4e3dc5-684f-4719-aa7a-47e2ac8e9af6",
+      "run_id": "1e7448aa-fa40-4935-9873-9c87493a0945",
+      "created_at": "2026-10-28T00:23:49.916537+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "revise-chapter",
+      "invocation_id": "e7c8ff55-a9b5-4a21-8b5d-eda60abd9d3d",
+      "run_id": "be5f5d3d-8ceb-4e75-b147-3765b75a55e0",
+      "created_at": "2026-10-28T00:25:42.340608+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "write-chapter",
+      "invocation_id": "7b90638d-ca04-47a8-a4d6-fd6a258f2e13",
+      "run_id": "1bb29762-3f3b-4ded-8a13-2f7f8d993d9c",
+      "created_at": "2026-10-28T00:28:52.385738+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "revise-chapter",
+      "invocation_id": "20a90c61-bdb2-4d99-919b-7dd69e7e4d4f",
+      "run_id": "f924c994-8703-45de-91db-fa04353618d5",
+      "created_at": "2026-10-28T00:31:12.047439+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "write-chapter",
+      "invocation_id": "d44381ac-1ffc-44c4-9d16-07637a062790",
+      "run_id": "8d4d0044-2093-462c-a501-cb0645114bea",
+      "created_at": "2026-10-28T00:35:33.679025+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "revise-chapter",
+      "invocation_id": "fc631a79-d866-47ca-af3f-476199a27756",
+      "run_id": "6e5b490f-5609-497d-b2c5-9d9d867255dc",
+      "created_at": "2026-10-28T00:39:31.177388+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "write-chapter",
+      "invocation_id": "3217973e-24be-4861-b819-6c811e2e8afc",
+      "run_id": "379fbde7-91b5-4314-9899-38c2a45d4655",
+      "created_at": "2026-10-28T00:42:55.648717+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "revise-chapter",
+      "invocation_id": "223811a0-3e64-49ac-a689-4fcb3a63a146",
+      "run_id": "205fa891-f9b6-4ad8-8131-7b2e2ace4baf",
+      "created_at": "2026-10-28T00:44:23.180286+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "write-chapter",
+      "invocation_id": "82ccb1ea-7aba-47b0-b5a5-58c87fa1e7ce",
+      "run_id": "153891c8-3c29-4578-a8f8-1eeb19cd647d",
+      "created_at": "2026-10-28T00:48:26.305754+00:00",
+      "outcome": "workflow_execution_failed"
+    }
+  ],
+  "failed_attempts": [
+    {
+      "workflow": "write-novel",
+      "run_id": "3b476066-e42f-4f21-8d6e-0ff220dca2db",
+      "step_id": "e1000000-0000-4000-8000-000000000075",
+      "error": "ToolExecutionError: Tool implementation c1000000-0000-4000-8000-000000000012 exited with status 1: Iteration 7: child workflow e1000000-0000-4000-8000-000000000040 invocation 82ccb1ea-7aba-47b0-b5a5-58c87fa1e7ce failed: Production workflow execution failed."
+    },
+    {
+      "workflow": "write-chapter",
+      "run_id": "153891c8-3c29-4578-a8f8-1eeb19cd647d",
+      "step_id": "e1000000-0000-4000-8000-000000000042",
+      "error": "ModelExecutionError: OpenRouter returned an invalid response for model 'anthropic/claude-opus-5.5'."
+    },
+    {
+      "workflow": "write-chapter",
+      "run_id": "153891c8-3c29-4578-a8f8-1eeb19cd647d",
+      "step_id": "e1000000-0000-4000-8000-000000000042",
+      "error": "ModelExecutionError: OpenRouter returned an invalid response for model 'anthropic/claude-opus-5.5'."
+    }
+  ],
+  "database": "novel.db"
+}
