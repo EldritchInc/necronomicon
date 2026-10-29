@@ -4,6 +4,7 @@ Books and partial books written by [Azathoth](https://github.com/EldritchInc/aza
 
 | Book | Status | Chapters | Cost | Models | Started |
 | --- | --- | ---: | ---: | --- | --- |
+| [Tidal Lock (The Jovian Ledger, Book One)](books/tidal-lock/) | partial | 18 of 18 | $34.41 | `claude-opus-5.5` | 2026-10-29 |
 | [The Water's Lying](books/the-water-s-lying/) | partial | 6 of 18 | $7.25 | `claude-opus-5.5` | 2026-10-28 |
 | [Small Forces (Book One of The Drift Trilogy)](books/small-forces/) | partial | 1 of 18 | $1.90 | `claude-opus-5.5` | 2026-10-27 |
 | [What the Light Keeps](books/what-the-light-keeps/) | full | 3 of 3 | $?.?? | `claude-opus-5.5` | 2026-10-27 |

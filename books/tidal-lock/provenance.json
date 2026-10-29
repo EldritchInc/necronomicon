@@ -1,0 +1,775 @@
+{
+  "title": "Tidal Lock (The Jovian Ledger, Book One)",
+  "status": "partial",
+  "chapters_written": 18,
+  "chapters_planned": 18,
+  "stop_reason": null,
+  "novel_workflow_id": "e1000000-0000-4000-8000-000000000070",
+  "novel_workflow_revision": 1,
+  "novel_run_id": "0c6559e3-cd03-49bd-b5d9-95d1ccaaea09",
+  "started_at": "2026-10-29T00:53:20.813011Z",
+  "completed_at": "2026-10-29T03:48:21.136101Z",
+  "request": {
+    "max_chapters": 18,
+    "max_revisions": 3,
+    "chapter_timeout_seconds": 3600
+  },
+  "models": [
+    "anthropic/claude-opus-5.5"
+  ],
+  "model_calls": 148,
+  "prompt_tokens": 3175599,
+  "completion_tokens": 1085252,
+  "recorded_cost_usd": 34.407436,
+  "cost_note": "Sum of recorded step costs. Failed attempts record no usage, so the provider's bill can be higher.",
+  "steps": {
+    "revise-chapter: Apply editorial requests": {
+      "calls": 45,
+      "prompt_tokens": 862463,
+      "completion_tokens": 560583,
+      "cost_usd": 14.661512,
+      "models": [
+        "anthropic/claude-opus-5.5"
+      ]
+    },
+    "revise-chapter: Verify editorial requests": {
+      "calls": 45,
+      "prompt_tokens": 467133,
+      "completion_tokens": 31228,
+      "cost_usd": 2.493092,
+      "models": [
+        "anthropic/claude-opus-5.5"
+      ]
+    },
+    "write-chapter: Draft chapter": {
+      "calls": 18,
+      "prompt_tokens": 441373,
+      "completion_tokens": 233576,
+      "cost_usd": 6.437012,
+      "models": [
+        "anthropic/claude-opus-5.5"
+      ]
+    },
+    "write-chapter: Review chapter": {
+      "calls": 18,
+      "prompt_tokens": 469279,
+      "completion_tokens": 41505,
+      "cost_usd": 2.707216,
+      "models": [
+        "anthropic/claude-opus-5.5"
+      ]
+    },
+    "write-chapter: Update notes": {
+      "calls": 18,
+      "prompt_tokens": 483366,
+      "completion_tokens": 148114,
+      "cost_usd": 4.895744,
+      "models": [
+        "anthropic/claude-opus-5.5"
+      ]
+    },
+    "write-novel: Check coherence": {
+      "calls": 1,
+      "prompt_tokens": 223248,
+      "completion_tokens": 8077,
+      "cost_usd": 1.054532,
+      "models": [
+        "anthropic/claude-opus-5.5"
+      ]
+    },
+    "write-novel: Final review": {
+      "calls": 1,
+      "prompt_tokens": 216665,
+      "completion_tokens": 10616,
+      "cost_usd": 1.07898,
+      "models": [
+        "anthropic/claude-opus-5.5"
+      ]
+    },
+    "write-novel: Plan chapters": {
+      "calls": 1,
+      "prompt_tokens": 11108,
+      "completion_tokens": 11026,
+      "cost_usd": 0.264952,
+      "models": [
+        "anthropic/claude-opus-5.5"
+      ]
+    },
+    "write-novel: Plan story": {
+      "calls": 1,
+      "prompt_tokens": 964,
+      "completion_tokens": 40527,
+      "cost_usd": 0.814396,
+      "models": [
+        "anthropic/claude-opus-5.5"
+      ]
+    }
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Weigh-In",
+      "invocation_id": "d3316a00-cf61-49a9-b3cd-bc015e63bce1",
+      "run_id": "dfb28edb-f54b-47c6-8648-17601282c27a"
+    },
+    {
+      "number": 2,
+      "title": "The Ledger",
+      "invocation_id": "50c402bf-3632-46b1-8bbd-5ec0796a7ba1",
+      "run_id": "4fa0be7f-1b05-49e4-a3c2-28b30bd369af"
+    },
+    {
+      "number": 3,
+      "title": "Pattern",
+      "invocation_id": "393fe404-1010-4644-bcd4-d6fc3bd460ff",
+      "run_id": "8a466977-f2dd-447d-8235-b9eba97cbd7f"
+    },
+    {
+      "number": 4,
+      "title": "Mule",
+      "invocation_id": "7f8046e4-ff46-4bee-ab84-21ad6c269b7a",
+      "run_id": "d52575c4-8069-4ed0-a148-d1c6e736e43b"
+    },
+    {
+      "number": 5,
+      "title": "The Dome",
+      "invocation_id": "c570fbc5-af7e-4027-87da-64c3d1bb36e0",
+      "run_id": "feb90770-6034-410f-a638-d1fbfb083830"
+    },
+    {
+      "number": 6,
+      "title": "Vows",
+      "invocation_id": "3507c30a-39c5-49e3-99dd-491b542042e3",
+      "run_id": "1c319a4a-a712-4178-8a06-67bc9c6dafc5"
+    },
+    {
+      "number": 7,
+      "title": "Echo",
+      "invocation_id": "5fb8bd07-da07-44e5-ab4e-60150a61c3aa",
+      "run_id": "95cd6607-bf28-4e48-a890-b83918ea978e"
+    },
+    {
+      "number": 8,
+      "title": "Countersignature",
+      "invocation_id": "a41c957d-492c-4cb8-bcd2-7dd4bc7f6c82",
+      "run_id": "b16bd6ad-12c9-48cb-ad88-10b844ce308d"
+    },
+    {
+      "number": 9,
+      "title": "Point of Origin",
+      "invocation_id": "56160679-8585-40d3-985e-50f38db0e7c5",
+      "run_id": "2b2acf6a-bd12-4922-9c94-586ef2bdca57"
+    },
+    {
+      "number": 10,
+      "title": "Interlock",
+      "invocation_id": "248130d0-427d-4858-b815-87083fc2325c",
+      "run_id": "378c55fa-b643-4ffb-bb48-39623b282883"
+    },
+    {
+      "number": 11,
+      "title": "Billable",
+      "invocation_id": "99f5612c-21a1-49e0-a822-d109bdb2de17",
+      "run_id": "2e47c41e-2d89-45b3-aa3c-75790d431095"
+    },
+    {
+      "number": 12,
+      "title": "Chain of Custody",
+      "invocation_id": "58097e96-5ae1-4d28-9fbc-f5686a2c78b6",
+      "run_id": "7ec5f078-f8bf-4023-b6e5-6c22b94eac03"
+    },
+    {
+      "number": 13,
+      "title": "Backlog",
+      "invocation_id": "c0edce67-f636-4ad2-945c-6acb2b1f634a",
+      "run_id": "642f79ae-f8dd-4941-8198-1118950e1c3c"
+    },
+    {
+      "number": 14,
+      "title": "Custodian of Record",
+      "invocation_id": "a75ecb48-e0fd-4665-a06c-be541fe16a2b",
+      "run_id": "884a0e90-b3d9-4a9d-8a02-fd6091f2589c"
+    },
+    {
+      "number": 15,
+      "title": "Cheap Seats",
+      "invocation_id": "1148479f-140c-41fb-a7c6-978325a5862d",
+      "run_id": "d6f319fa-95f6-41b8-a211-51ee5884b09e"
+    },
+    {
+      "number": 16,
+      "title": "Exceptions Last",
+      "invocation_id": "03fb53ea-8a52-4424-9534-07c7514f56f0",
+      "run_id": "f582c0ce-7fbc-41d2-93dd-78709e1ac19f"
+    },
+    {
+      "number": 17,
+      "title": "The Persons Column",
+      "invocation_id": "496e37a2-0f75-4910-900f-16d851677e64",
+      "run_id": "279c5262-2777-4535-88be-bb5c061ab6f4"
+    },
+    {
+      "number": 18,
+      "title": "Well Counted",
+      "invocation_id": "d3eba507-4cad-47b6-8515-65cfa4227716",
+      "run_id": "35b3e909-6752-4af7-906a-627a82be4639"
+    }
+  ],
+  "child_invocations": [
+    {
+      "workflow": "write-chapter",
+      "invocation_id": "d3316a00-cf61-49a9-b3cd-bc015e63bce1",
+      "run_id": "dfb28edb-f54b-47c6-8648-17601282c27a",
+      "created_at": "2026-10-29T01:02:35.372925+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "revise-chapter",
+      "invocation_id": "e5963b69-c8bf-46e7-8f44-ec1f579c3e9f",
+      "run_id": "d9a57e00-6393-48c9-9fb6-b558411698b1",
+      "created_at": "2026-10-29T01:03:52.970011+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "revise-chapter",
+      "invocation_id": "c557cd1e-c96e-4a65-9881-e3eb8ef54e25",
+      "run_id": "9d08562c-fb91-4b35-bcd2-6ce95718ffb9",
+      "created_at": "2026-10-29T01:05:10.604744+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "revise-chapter",
+      "invocation_id": "8dfd6d60-a969-42d5-8916-ed7cb8ceadcc",
+      "run_id": "67f96aea-0e8f-4d32-8b37-351940d643d4",
+      "created_at": "2026-10-29T01:06:16.877124+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "write-chapter",
+      "invocation_id": "50c402bf-3632-46b1-8bbd-5ec0796a7ba1",
+      "run_id": "4fa0be7f-1b05-49e4-a3c2-28b30bd369af",
+      "created_at": "2026-10-29T01:09:13.357337+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "revise-chapter",
+      "invocation_id": "f880bdbb-a8d5-4b55-a8f0-9932a2980622",
+      "run_id": "ab3f509a-a5d0-46b3-af56-0248704f340a",
+      "created_at": "2026-10-29T01:12:38.846366+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "write-chapter",
+      "invocation_id": "393fe404-1010-4644-bcd4-d6fc3bd460ff",
+      "run_id": "8a466977-f2dd-447d-8235-b9eba97cbd7f",
+      "created_at": "2026-10-29T01:15:22.791970+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "revise-chapter",
+      "invocation_id": "b898aaf4-1159-4023-924e-97af3de2eb44",
+      "run_id": "03c52be8-6ee9-4d18-ba2a-e464915c698d",
+      "created_at": "2026-10-29T01:18:59.819901+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "write-chapter",
+      "invocation_id": "7f8046e4-ff46-4bee-ab84-21ad6c269b7a",
+      "run_id": "d52575c4-8069-4ed0-a148-d1c6e736e43b",
+      "created_at": "2026-10-29T01:22:26.226727+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "revise-chapter",
+      "invocation_id": "8a6f9fa4-f0f7-40bf-b177-76f94826d5c0",
+      "run_id": "be01696f-024b-4163-a752-6f695f545b50",
+      "created_at": "2026-10-29T01:26:29.971163+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "write-chapter",
+      "invocation_id": "c570fbc5-af7e-4027-87da-64c3d1bb36e0",
+      "run_id": "feb90770-6034-410f-a638-d1fbfb083830",
+      "created_at": "2026-10-29T01:30:08.044033+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "revise-chapter",
+      "invocation_id": "5f0938c8-dff1-4bf5-973b-5ca15ad673cc",
+      "run_id": "06cba7c6-6373-417e-8d5c-52324b979937",
+      "created_at": "2026-10-29T01:32:11.422761+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "revise-chapter",
+      "invocation_id": "1658c38b-a4cf-4a35-b4c2-c15d750b9a6d",
+      "run_id": "3dc166ff-4af0-4313-9fb7-41dcbd13a125",
+      "created_at": "2026-10-29T01:33:07.240366+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "write-chapter",
+      "invocation_id": "3507c30a-39c5-49e3-99dd-491b542042e3",
+      "run_id": "1c319a4a-a712-4178-8a06-67bc9c6dafc5",
+      "created_at": "2026-10-29T01:36:39.144277+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "revise-chapter",
+      "invocation_id": "9b76acad-7439-48e8-86c1-e1c3e6c670d3",
+      "run_id": "80f638d6-20f6-484e-a87c-40b9c4e0e7ac",
+      "created_at": "2026-10-29T01:40:23.475946+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "write-chapter",
+      "invocation_id": "5fb8bd07-da07-44e5-ab4e-60150a61c3aa",
+      "run_id": "95cd6607-bf28-4e48-a890-b83918ea978e",
+      "created_at": "2026-10-29T01:43:16.856175+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "revise-chapter",
+      "invocation_id": "f3b275e7-5842-4df5-b076-1dac8472306d",
+      "run_id": "7f22b281-14e2-4cd4-9f69-0dce21c909ef",
+      "created_at": "2026-10-29T01:45:44.024811+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "revise-chapter",
+      "invocation_id": "fe59ba31-c5eb-494a-b9b0-e0945c52ce4d",
+      "run_id": "8a0003f4-1495-4932-8b22-67e5267ba7a6",
+      "created_at": "2026-10-29T01:48:50.573239+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "write-chapter",
+      "invocation_id": "a41c957d-492c-4cb8-bcd2-7dd4bc7f6c82",
+      "run_id": "b16bd6ad-12c9-48cb-ad88-10b844ce308d",
+      "created_at": "2026-10-29T01:51:18.610268+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "revise-chapter",
+      "invocation_id": "96152e73-3710-491d-a7a9-b178b1466b85",
+      "run_id": "94cb1cac-9b3f-4e60-8502-57940460d23a",
+      "created_at": "2026-10-29T01:54:43.339846+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "write-chapter",
+      "invocation_id": "56160679-8585-40d3-985e-50f38db0e7c5",
+      "run_id": "2b2acf6a-bd12-4922-9c94-586ef2bdca57",
+      "created_at": "2026-10-29T01:58:09.757501+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "revise-chapter",
+      "invocation_id": "fdbb26df-1e71-4952-ba1b-e9fd097c093b",
+      "run_id": "41bf43bd-345a-4e47-9202-db4f2283938e",
+      "created_at": "2026-10-29T02:00:58.277520+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "write-chapter",
+      "invocation_id": "248130d0-427d-4858-b815-87083fc2325c",
+      "run_id": "378c55fa-b643-4ffb-bb48-39623b282883",
+      "created_at": "2026-10-29T02:05:45.990809+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "revise-chapter",
+      "invocation_id": "16e29035-76f5-458d-adc7-94180e672ca9",
+      "run_id": "860ad48f-eacd-4231-a4a5-d74f988bf2b2",
+      "created_at": "2026-10-29T02:10:02.477466+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "write-chapter",
+      "invocation_id": "99f5612c-21a1-49e0-a822-d109bdb2de17",
+      "run_id": "2e47c41e-2d89-45b3-aa3c-75790d431095",
+      "created_at": "2026-10-29T02:13:39.610448+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "revise-chapter",
+      "invocation_id": "d5ffcf15-864e-4e51-ad56-e12d54949c78",
+      "run_id": "1995453e-f31e-4653-8a6a-f2d58655b4b6",
+      "created_at": "2026-10-29T02:15:36.329237+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "revise-chapter",
+      "invocation_id": "8c87b1c7-ae85-41eb-a2ef-4a03c753c97f",
+      "run_id": "9f5fcbe7-08cc-4d73-916d-46cb20492888",
+      "created_at": "2026-10-29T02:17:32.813350+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "write-chapter",
+      "invocation_id": "58097e96-5ae1-4d28-9fbc-f5686a2c78b6",
+      "run_id": "7ec5f078-f8bf-4023-b6e5-6c22b94eac03",
+      "created_at": "2026-10-29T02:20:24.974730+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "revise-chapter",
+      "invocation_id": "6973ea43-e05e-41b5-a565-67badc6e6207",
+      "run_id": "a0674e70-9af1-45cd-b1ef-287f15c43e5c",
+      "created_at": "2026-10-29T02:21:51.131506+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "revise-chapter",
+      "invocation_id": "167e501a-1396-4b86-a3ed-d9c40ec45d59",
+      "run_id": "8bca8513-c677-44fc-bd84-7aa0baf41631",
+      "created_at": "2026-10-29T02:23:02.300975+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "revise-chapter",
+      "invocation_id": "459e5e4b-4530-4188-b2b0-78953bb8c122",
+      "run_id": "7a541c2d-a1f3-4b95-baa2-c134bd60dc61",
+      "created_at": "2026-10-29T02:23:56.235224+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "write-chapter",
+      "invocation_id": "c0edce67-f636-4ad2-945c-6acb2b1f634a",
+      "run_id": "642f79ae-f8dd-4941-8198-1118950e1c3c",
+      "created_at": "2026-10-29T02:26:27.107092+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "revise-chapter",
+      "invocation_id": "ec8569fb-48bb-4478-b7d1-c99ce898d353",
+      "run_id": "af5acfc3-d6e5-4c75-9f70-c777f8515fa9",
+      "created_at": "2026-10-29T02:27:45.726484+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "revise-chapter",
+      "invocation_id": "24020135-447b-43f5-bd7c-5beba7360585",
+      "run_id": "01ac5864-77d9-4185-9842-bfe6fc7a054a",
+      "created_at": "2026-10-29T02:30:54.147642+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "write-chapter",
+      "invocation_id": "a75ecb48-e0fd-4665-a06c-be541fe16a2b",
+      "run_id": "884a0e90-b3d9-4a9d-8a02-fd6091f2589c",
+      "created_at": "2026-10-29T02:33:39.556482+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "revise-chapter",
+      "invocation_id": "5200371e-9217-4f82-b025-081b65e353b3",
+      "run_id": "eb0acb73-3c95-459f-9bf1-a55b527d9057",
+      "created_at": "2026-10-29T02:37:17.323482+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "revise-chapter",
+      "invocation_id": "15645e21-8e9c-4a40-98e5-9068ddbe9e64",
+      "run_id": "c7a1697d-6654-460d-a427-03d818bdb28d",
+      "created_at": "2026-10-29T02:40:19.923570+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "write-chapter",
+      "invocation_id": "1148479f-140c-41fb-a7c6-978325a5862d",
+      "run_id": "d6f319fa-95f6-41b8-a211-51ee5884b09e",
+      "created_at": "2026-10-29T02:43:08.168913+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "revise-chapter",
+      "invocation_id": "708a6c24-e5a8-4129-8615-53fcfc542aee",
+      "run_id": "d19ce303-2048-42b4-a2c7-bca5afd34472",
+      "created_at": "2026-10-29T02:47:38.526279+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "write-chapter",
+      "invocation_id": "03fb53ea-8a52-4424-9534-07c7514f56f0",
+      "run_id": "f582c0ce-7fbc-41d2-93dd-78709e1ac19f",
+      "created_at": "2026-10-29T02:51:48.093503+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "revise-chapter",
+      "invocation_id": "c1cb40fc-37d3-4236-8623-fd1b38cd0522",
+      "run_id": "ae0ab4e5-c13f-4398-a22e-f126d67383b2",
+      "created_at": "2026-10-29T02:55:05.236765+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "write-chapter",
+      "invocation_id": "496e37a2-0f75-4910-900f-16d851677e64",
+      "run_id": "279c5262-2777-4535-88be-bb5c061ab6f4",
+      "created_at": "2026-10-29T02:59:33.723099+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "revise-chapter",
+      "invocation_id": "f286fd9b-d49e-4401-b0e4-fe8064f59bdd",
+      "run_id": "5baf502a-daa6-471d-96ae-c83b1c18b187",
+      "created_at": "2026-10-29T03:04:16.675537+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "write-chapter",
+      "invocation_id": "d3eba507-4cad-47b6-8515-65cfa4227716",
+      "run_id": "35b3e909-6752-4af7-906a-627a82be4639",
+      "created_at": "2026-10-29T03:08:16.296280+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "revise-chapter",
+      "invocation_id": "b02dcec8-2ae6-4096-b36f-8d8423bd3047",
+      "run_id": "44e9d713-0914-4c19-8716-a362e76b1766",
+      "created_at": "2026-10-29T03:11:30.824516+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "revise-chapter",
+      "invocation_id": "69676849-c543-4bcb-ba6b-c3b96146564e",
+      "run_id": "dc937c7c-3d57-4372-a4eb-ba37c9f439bc",
+      "created_at": "2026-10-29T03:13:59.135106+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "edit-queue",
+      "invocation_id": "35cbb194-3219-4517-b919-c7175b877437",
+      "run_id": "046b8518-d86b-4083-858a-85dbe096b996",
+      "created_at": "2026-10-29T03:17:37.970701+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "revise-chapter",
+      "invocation_id": "4ecb91c9-6095-42f5-b7c0-f050667c1a31",
+      "run_id": "0ceb8fe6-f50b-4071-bc9c-04566f25f815",
+      "created_at": "2026-10-29T03:17:38.560635+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "edit-queue",
+      "invocation_id": "99fda82b-b68f-4856-a959-c87e842771a6",
+      "run_id": "ccf5c51e-5eea-4e92-b2ca-6f1531c2a1cb",
+      "created_at": "2026-10-29T03:19:07.379901+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "revise-chapter",
+      "invocation_id": "00fb82c2-c3c3-453a-8842-d2da20df8560",
+      "run_id": "f5233c09-f8c5-43a0-b237-cf18922eb9d9",
+      "created_at": "2026-10-29T03:19:08.031300+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "edit-queue",
+      "invocation_id": "36a71f00-c82e-4ade-ab51-67019e1c60c4",
+      "run_id": "5938e5a6-103a-4a5f-b2dc-a3449289f90f",
+      "created_at": "2026-10-29T03:20:32.754536+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "revise-chapter",
+      "invocation_id": "4fd49126-64f7-43ce-82e1-0706d61cfe22",
+      "run_id": "8b4c3f71-da45-403e-be99-0d93af036662",
+      "created_at": "2026-10-29T03:20:33.283856+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "edit-queue",
+      "invocation_id": "75ae41ff-c0e2-4390-956c-c3a666a9ba80",
+      "run_id": "5f6de33a-99c3-4dfc-9427-86aa55cf4b6c",
+      "created_at": "2026-10-29T03:22:11.004163+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "revise-chapter",
+      "invocation_id": "9ea84bf7-4383-4a69-9693-941b6de8f5d4",
+      "run_id": "0216370b-dc4b-4cff-b691-df6bb8571a8d",
+      "created_at": "2026-10-29T03:22:11.550800+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "edit-queue",
+      "invocation_id": "459b4572-6c64-4e6d-bfa3-154c9ecfbcb9",
+      "run_id": "80692d88-31bf-4e2b-9a2a-173d606c36de",
+      "created_at": "2026-10-29T03:23:22.562849+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "revise-chapter",
+      "invocation_id": "dbf15b8a-988d-42a5-b03f-bf173e6d2aed",
+      "run_id": "25697235-fb36-478a-8f66-9cfe9d3e5f74",
+      "created_at": "2026-10-29T03:23:23.186450+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "edit-queue",
+      "invocation_id": "05e26f3b-4147-4595-9bf1-f88eb3d39c76",
+      "run_id": "d00d47a4-dbf2-4c7d-8478-6aea313f736d",
+      "created_at": "2026-10-29T03:25:04.714450+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "revise-chapter",
+      "invocation_id": "0e99cf53-16c7-42b3-b89b-0049cb8c1fa6",
+      "run_id": "1e7f89af-2642-4d8e-8b15-97b9ba9dcc7e",
+      "created_at": "2026-10-29T03:25:05.266047+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "edit-queue",
+      "invocation_id": "3aad11eb-64eb-4693-8bab-4c66f5a456bf",
+      "run_id": "a0e8ab89-fbb7-4101-becd-8655df043653",
+      "created_at": "2026-10-29T03:26:22.319508+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "revise-chapter",
+      "invocation_id": "3db95cf4-cbd8-4284-ba88-6aed620cf149",
+      "run_id": "2f9df2c1-7a2d-4ce8-9fc2-4924919a222d",
+      "created_at": "2026-10-29T03:26:22.986611+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "edit-queue",
+      "invocation_id": "d6ba6fe0-6d1a-415a-8119-12463dbb7577",
+      "run_id": "efaa9cde-eb19-4c68-ac9f-345c7285fda5",
+      "created_at": "2026-10-29T03:28:29.327286+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "revise-chapter",
+      "invocation_id": "0a2e5b04-9d11-4398-a56f-46b5964a3f81",
+      "run_id": "376225ad-b1c6-4ff1-b7f9-211fc267a871",
+      "created_at": "2026-10-29T03:28:29.849381+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "revise-chapter",
+      "invocation_id": "2ebb979f-51ea-4166-bdad-9bc2e5606baa",
+      "run_id": "e4475494-54d1-4841-9199-3bcfcd1094d5",
+      "created_at": "2026-10-29T03:29:59.650531+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "edit-queue",
+      "invocation_id": "3fbb4e77-944f-4e10-8bcd-082b49ee55de",
+      "run_id": "6e940d6f-1910-4d21-83dc-b99380854dfb",
+      "created_at": "2026-10-29T03:31:49.173416+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "revise-chapter",
+      "invocation_id": "afde86b5-8664-42eb-984c-d19ffae3a23c",
+      "run_id": "8c93bf5e-17ae-4b00-bbb0-ce5a7a87c865",
+      "created_at": "2026-10-29T03:31:49.735302+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "edit-queue",
+      "invocation_id": "400ee4b8-a604-4de1-8fe7-411c14bb023a",
+      "run_id": "951e9025-7f50-417d-9d6e-47444520486c",
+      "created_at": "2026-10-29T03:34:14.431840+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "revise-chapter",
+      "invocation_id": "97b60636-7555-4534-96d3-8810bb6c8916",
+      "run_id": "d757a47b-c445-493b-b6da-e06e8456c97c",
+      "created_at": "2026-10-29T03:34:14.972388+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "edit-queue",
+      "invocation_id": "72ab8e43-804e-4fc6-9cf3-f6c114cb1ae0",
+      "run_id": "06f0fcda-8b03-4a56-aa5e-990c84e8ef35",
+      "created_at": "2026-10-29T03:35:39.365064+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "revise-chapter",
+      "invocation_id": "f2957db4-c760-4663-9c9a-b332262305e9",
+      "run_id": "f414a5f4-5e8e-481a-b0fa-ec28ec446688",
+      "created_at": "2026-10-29T03:35:40.477722+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "edit-queue",
+      "invocation_id": "153fbc21-e8a0-43c8-a30b-8d434afdd8f0",
+      "run_id": "d721ec69-86df-4571-bea1-950f68eb5128",
+      "created_at": "2026-10-29T03:37:12.751166+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "revise-chapter",
+      "invocation_id": "da1fc39d-6de9-4bde-9669-60b53bd91279",
+      "run_id": "ed3050f7-6d49-41dd-8877-612008e2930c",
+      "created_at": "2026-10-29T03:37:13.417372+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "edit-queue",
+      "invocation_id": "9c3eaf2d-2c58-476f-82d9-c97b78f91b88",
+      "run_id": "b8ba39aa-aafc-4ac6-a7b9-bea333f6a469",
+      "created_at": "2026-10-29T03:39:24.243679+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "revise-chapter",
+      "invocation_id": "21b56038-217d-4312-b0cd-bd5a9e9664eb",
+      "run_id": "c842e39a-a1cc-4bfc-9746-aedc9c11bc22",
+      "created_at": "2026-10-29T03:39:24.859689+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "edit-queue",
+      "invocation_id": "a1d7cd45-a76f-4721-bccd-5bc72805190d",
+      "run_id": "ba34ab5a-3ede-4975-aeee-85e3ac1d8739",
+      "created_at": "2026-10-29T03:41:25.035040+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "revise-chapter",
+      "invocation_id": "99b881e3-de76-4192-8470-ffba1ba0132e",
+      "run_id": "8778911e-757c-45bb-9e77-e34f6d18b2b1",
+      "created_at": "2026-10-29T03:41:25.719441+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "edit-queue",
+      "invocation_id": "6f7f2f1b-cafd-4cf2-9d7c-0a2d9b1809c3",
+      "run_id": "5379ed94-afac-49d9-8e72-0884513e0c7f",
+      "created_at": "2026-10-29T03:43:29.357042+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "revise-chapter",
+      "invocation_id": "10a1ce9f-bf43-4774-b6ec-7e7ce5baf1ca",
+      "run_id": "c9d5edfc-0ac8-477a-85b7-e3c156abd6bf",
+      "created_at": "2026-10-29T03:43:29.997594+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "edit-queue",
+      "invocation_id": "58e7fd8b-2958-440b-ae30-a0e5b9f3ace3",
+      "run_id": "ff811695-282b-4653-9407-ea237a7123c2",
+      "created_at": "2026-10-29T03:45:21.128649+00:00",
+      "outcome": "succeeded"
+    },
+    {
+      "workflow": "revise-chapter",
+      "invocation_id": "3d1f6389-164e-44c4-a910-8c137f052e45",
+      "run_id": "3b421eff-f995-442a-b2e4-0a5572976a27",
+      "created_at": "2026-10-29T03:45:21.697378+00:00",
+      "outcome": "succeeded"
+    }
+  ],
+  "failed_attempts": [],
+  "database": "novel.db"
+}
